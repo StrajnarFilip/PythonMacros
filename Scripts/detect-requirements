@@ -1,3 +1,0 @@
-#!C:\Users\Filip\Desktop\Organized\Python\Macros\Scripts\python.exe
-from requirements_detector.run import run
-run()
