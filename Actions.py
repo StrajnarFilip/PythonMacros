@@ -43,6 +43,12 @@ def KeyClick(key: Any):
     keyboardController.press(key)
     keyboardController.release(key)
     
+def KeyDown(key: Any):
+    keyboardController.press(key)
+    
+def KeyUp(key: Any):
+    keyboardController.release(key)
+    
 def KeyboardType(string_to_type: str):
     keyboardController.type(string_to_type)
 
